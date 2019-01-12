@@ -31,5 +31,12 @@ public class task3 {
 		System.out.println("Площадь круга #2 = " + circle2.circleArea(circle2.getDiameter()));
 		System.out.println("Длина круга #2 = " + circle2.circleLength(circle2.getRadius()));
 		
+		System.out.println();
+		
+		circle1.circleAreaConsole(circle1.getDiameter());
+		circle1.circleLengthConsole(circle1.getRadius());
+		
+		circle2.circleAreaConsole(circle2.getDiameter());
+		circle2.circleLengthConsole(circle2.getRadius());
 	}
 }
