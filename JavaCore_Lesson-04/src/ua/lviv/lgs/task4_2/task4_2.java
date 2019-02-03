@@ -3,9 +3,9 @@ package ua.lviv.lgs.task4_2;
 public class task4_2 {
 
 	public static void main(String[] args) {
-		SteeringWheel sw = new SteeringWheel(40.5, "резина");
-		Wheel wheel = new Wheel(175, "слик");
-		Body body = new Body("черный");
+		SteeringWheel sw = new SteeringWheel(40.5, "СЂРµР·РёРЅР°");
+		Wheel wheel = new Wheel(175, "СЃР»РёРє");
+		Body body = new Body("С‡РµСЂРЅС‹Р№");
 		Car car = new Car(500, 5, sw, wheel, body);
 				
 		System.out.println(car);
@@ -13,10 +13,10 @@ public class task4_2 {
 		car.setEnginePower(1200);
 		car.setNumberOfDoors(3);
 		sw.setDiameter(sw.halfSteeringWheelDiameter());
-		sw.setMaterial("кожа");
+		sw.setMaterial("РєРѕР¶Р°");
 		wheel.setWheelSize(wheel.wheelSizeEnlarge(10));
-		wheel.setTyreType("протектор");
-		body.setColor("белый");
+		wheel.setTyreType("РїСЂРѕС‚РµРєС‚РѕСЂ");
+		body.setColor("Р±РµР»С‹Р№");
 				
 		System.out.println(car);
 	}

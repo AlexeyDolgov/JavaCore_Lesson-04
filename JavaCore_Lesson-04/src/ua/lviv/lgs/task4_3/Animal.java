@@ -14,7 +14,7 @@ public class Animal {
 
 	
 	public void viewAnimalInfo (String name, int speed, int age) {
-		System.out.println("Название животного - " + name + ", Скорость животного - " + speed + " км/ч, Возраст животного - " + age + " лет");
+		System.out.println("РќР°Р·РІР°РЅРёРµ Р¶РёРІРѕС‚РЅРѕРіРѕ - " + name + ", РЎРєРѕСЂРѕСЃС‚СЊ Р¶РёРІРѕС‚РЅРѕРіРѕ - " + speed + " РєРј/С‡, Р’РѕР·СЂР°СЃС‚ Р¶РёРІРѕС‚РЅРѕРіРѕ - " + age + " Р»РµС‚");
 	}
 
 	public String getName() {

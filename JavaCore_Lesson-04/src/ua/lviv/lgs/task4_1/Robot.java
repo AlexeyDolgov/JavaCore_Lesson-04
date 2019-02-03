@@ -13,12 +13,12 @@ public class Robot {
 	
 	public Robot() {
 		this.name = "Robot";
-		this.act = "просто работаю";
+		this.act = "РїСЂРѕСЃС‚Рѕ СЂР°Р±РѕС‚Р°СЋ";
 	}
 
 		
 	public void work () {
-		System.out.println("Я " + this.name + " - я " + this.act + "!");
+		System.out.println("РЇ " + this.name + " - СЏ " + this.act + "!");
 	}
 	
 }

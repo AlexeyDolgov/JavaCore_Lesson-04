@@ -4,11 +4,11 @@ public class task4_3 {
 
 	public static void main(String[] args) {
 	
-		Animal animal = new Animal ("Леопард", 20, 7);
+		Animal animal = new Animal ("Р›РµРѕРїР°СЂРґ", 20, 7);
 		
 		animal.viewAnimalInfo(animal.getName(), animal.getSpeed(), animal.getAge());
 		
-		animal.setName("Бык");
+		animal.setName("Р‘С‹Рє");
 		animal.setSpeed(2);
 		animal.setAge(14);
 		
